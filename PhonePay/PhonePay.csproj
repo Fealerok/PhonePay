@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\MainWindow\QiwiWallet.png" />
+    <None Remove="images\MainWindow\Search.png" />
+    <None Remove="images\MainWindow\ServicesPay.png" />
+    <None Remove="images\ServicesPay\BankServices.png" />
+    <None Remove="images\ServicesPay\CommunalServices.png" />
+    <None Remove="images\ServicesPay\MoneyTransfers.png" />
+    <None Remove="images\ServicesPay\PhoneCommunication.png" />
+    <None Remove="images\ServicesPay\TransferToCard.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\MainWindow\QiwiWallet.png" />
+    <Resource Include="images\MainWindow\Search.png" />
+    <Resource Include="images\MainWindow\ServicesPay.png" />
+    <Resource Include="images\ServicesPay\BankServices.png" />
+    <Resource Include="images\ServicesPay\CommunalServices.png" />
+    <Resource Include="images\ServicesPay\MoneyTransfers.png" />
+    <Resource Include="images\ServicesPay\PhoneCommunication.png" />
+    <Resource Include="images\ServicesPay\TransferToCard.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,76 @@
+﻿<Page x:Class="PhonePay.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PhonePay"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PhonePay" MinWidth="1000" MinHeight="800" Background="White">
+
+    <Grid>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+        <ColumnDefinition Width="200"></ColumnDefinition>
+        <ColumnDefinition Width="400"></ColumnDefinition>
+        <ColumnDefinition Width="*"></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+
+    <Grid.RowDefinitions>
+        <RowDefinition Height="100"></RowDefinition>
+        <RowDefinition Height="50"></RowDefinition>
+        <RowDefinition></RowDefinition>
+        <RowDefinition Height="50"></RowDefinition>
+        <RowDefinition></RowDefinition>
+        <RowDefinition Height="50"></RowDefinition>
+        <RowDefinition></RowDefinition>
+        <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+
+    <Rectangle Grid.Column="0" Grid.ColumnSpan="4" Fill="LightGreen" Opacity="0.8"></Rectangle>
+    <TextBox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Text="Банкомат PhonePay" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="50" BorderThickness="0" IsReadOnly="True" Cursor="Arrow" Background="Transparent" FontWeight="Bold"></TextBox>
+
+
+    <Border Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="1" CornerRadius="50" Background="LightGray">
+        <Grid MouseLeftButtonDown="GridMouseClick" Cursor="Hand" Background="Transparent" Name="ServicesPayGrid">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Source="images/MainWindow/ServicesPay.png" Width="100"></Image>
+            <TextBox Text="Оплата услуг" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" BorderThickness="0" IsReadOnly="True" IsEnabled="False" FontWeight="Bold" Background="Transparent"/>
+
+        </Grid>
+    </Border>
+
+
+    <Border Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="1" CornerRadius="50" Background="LightGray">
+        <Grid MouseLeftButtonDown="GridMouseClick" Cursor="Hand" Background="Transparent" Name="QiwiWalletGrid">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Source="images/MainWindow/QiwiWallet.png" Width="100"></Image>
+            <TextBox Text="Qiwi кошелёк" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" BorderThickness="0" IsReadOnly="True" IsEnabled="False" FontWeight="Bold" Background="Transparent"/>
+
+        </Grid>
+    </Border>
+
+    <Border Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="1" CornerRadius="50" Background="LightGray">
+        <Grid MouseLeftButtonDown="GridMouseClick" Cursor="Hand" Background="Transparent" Name="SearchGrid">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Source="images/MainWindow/Search.png" Width="100"></Image>
+            <TextBox Text="Поиск" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" BorderThickness="0" IsReadOnly="True" IsEnabled="False" FontWeight="Bold" Background="Transparent"/>
+
+        </Grid>
+    </Border>
+
+    <Frame Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="8" NavigationUIVisibility="Hidden" Name="NavigationFrame"></Frame>
+</Grid>
+</Page>
