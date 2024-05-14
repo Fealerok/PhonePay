@@ -66,5 +66,15 @@ namespace PhonePay.pages
                     break;
             }
         }
+
+        /// <summary>
+        /// Метод, срабатываемый при нажатии на кнопку "Назад" для возвращения в главное меню.
+        /// </summary>
+        /// <param name="sender">Объект кнопки Button</param>
+        /// <param name="e">Объект события</param>
+        private void TransferToBack(object sender, RoutedEventArgs e)
+        {
+            NavigationFrame.NavigationService.Navigate(new Uri("MainPage.xaml", UriKind.Relative));
+        }
     }
 }
