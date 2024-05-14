@@ -20,6 +20,8 @@
         <Rectangle Grid.Column="0" Grid.ColumnSpan="4" Fill="LightGreen" Opacity="0.8"></Rectangle>
         <TextBox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Text="Банкомат PhonePay" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="50" BorderThickness="0" IsReadOnly="True" Cursor="Arrow" Background="Transparent" FontWeight="Bold"></TextBox>
 
+        <Button Grid.Row="2" Width="300" HorizontalAlignment="Right" Content="Назад" FontSize="35" Height="80" Click="TransferToBack"></Button>
+        
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="200"></ColumnDefinition>
