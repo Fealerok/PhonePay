@@ -38,8 +38,8 @@
 ## Страница ввода номера телефона </br>
 </br> </br> </br>
 
-![Страница ввода суммы денег](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/EnterMoneyPage.png)
-## Страница ввода суммы денег </br>
+![Окно ввода суммы денег](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/EnterMoneyPage.png)
+## Окно ввода суммы денег </br>
 </br> </br> </br>
 
 ![Страница поиска](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/SearchPage.png)
