@@ -30,4 +30,5 @@
 
 # Скриншоты приложения:
 **Главная страница** </br>
+
 ![Главная страница](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/MainMenu.png)
