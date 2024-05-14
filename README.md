@@ -36,3 +36,15 @@
 
 ![Страница ввода номера телефона](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/EnterPhonePage.png)
 ## Страница ввода номера телефона </br>
+</br> </br> </br>
+
+![Страница ввода суммы денег](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/EnterMoneyPage.png)
+## Страница ввода суммы денег </br>
+</br> </br> </br>
+
+![Страница поиска](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/SearchPage.png)
+## Страница поиска </br>
+</br> </br> </br>
+
+![Страница поиска с визуализацией работы](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/SearchPage(Visualization%20of%20work).png)
+## Визуализация работы поиска </br>
