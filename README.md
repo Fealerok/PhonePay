@@ -31,7 +31,8 @@
 # Скриншоты приложения:
 
 ![Главная страница](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/MainMenu.png)
-## Главная страница </br> </br> </br>
+## Главная страница
+</br> </br> </br>
 
 ![Страница ввода номера телефона](https://github.com/Fealerok/PhonePay/blob/main/ScreensForRepository/EnterPhonePage.png)
 ## Страница ввода номера телефона </br>
